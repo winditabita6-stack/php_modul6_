@@ -8,7 +8,7 @@
   include("connection.php");
 
   if (isset($_POST["submit"])) {
-    $nim = htmlentities(strip_tags(trim($_POST["nim"])));
+    $nim = htmlentities(strip_tags(trim($_POST["NIM"])));
     $name = htmlentities(strip_tags(trim($_POST["name"])));
     $birth_city = htmlentities(strip_tags(trim($_POST["birth_city"])));
     $faculty = htmlentities(strip_tags(trim($_POST["faculty"])));
