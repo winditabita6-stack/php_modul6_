@@ -32,7 +32,7 @@ if (isset($_POST["submit"])) {
 
     // Validasi
     if (empty($name)) {
-        $error_message .= "- Nama belum diisi <br>";
+        $error_message .= "- Nama belum diisiiii <br>";
     }
     if (empty($birth_city)) {
         $error_message .= "- Tempat lahir belum diisi <br>";
